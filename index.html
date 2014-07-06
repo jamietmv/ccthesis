@@ -1,10 +1,1512 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Clothing Cycle</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content=" ">
+  <meta name="author" content=" ">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>Decima Store - eCommerce HTML5/CSS3 Template</title>
+
+  <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="bootstrap/js/html5shiv.js"></script>
+  <script src="bootstrap/js/respond.min.js"></script>
+  <![endif]-->
+
 </head>
 <body>
-    <p>This is a page. Not a dog.</p>
+<div class="wrapper">
+
+<header id="MainNav">
+  <div class="container">
+    <div class="row">
+      <section class="col-md-12" id="TopBar">
+        <a href="08-a-shop-account-login.html" class="btn btn-link pull-left btn-login">
+          Login
+        </a>
+
+        <!-- SHOPPING CART -->
+        <div class="shopping-cart-widget pull-right">
+          <button type="button" class="btn btn-link pull-right">
+            <span aria-hidden="true" data-icon="&#xe006;"></span> 2 items: $89.00 <b class="caret"></b>
+          </button>
+          <div role="complementary">
+            <!-- SHOP SUMMARY ITEM -->
+            <article class="shop-summary-item">
+              <img src="images/content/cart-purchased-small-1.jpg" alt="Shop item in cart">
+
+              <div class="item-info-name-features-price">
+                <h4><a href="#">Leggings in Denim Look</a></h4>
+                <span class="features">Black, S</span><br>
+                <span class="quantity">1</span><b>&times;</b><span class="price">$24.00</span>
+              </div>
+              <button type="button" class="close" aria-hidden="true"><span aria-hidden="true" data-icon="&#xe005;"></span></button>
+            </article>
+            <!-- !SHOP SUMMARY ITEM -->
+            <!-- SHOP SUMMARY ITEM -->
+            <article class="shop-summary-item">
+              <img src="images/content/cart-purchased-small-2.jpg" alt="Shop item in cart">
+
+              <div class="item-info-name-features-price">
+                <h4><a href="#">Denim Jacket in Oversized Boyfriend Fit in Vintage Wash</a></h4>
+                <span class="features">Light Blue, M</span><br>
+                <span class="quantity">1</span><b>&times;</b><span class="price">$65.00</span>
+              </div>
+              <button type="button" class="close" aria-hidden="true"><span aria-hidden="true" data-icon="&#xe005;"></span></button>
+            </article>
+            <!-- !SHOP SUMMARY ITEM -->
+            <hr>
+            <span class="total-price-tag pull-left">Cart subtotal</span><span class="total-price pull-right">$89.00</span>
+
+            <div class="clearfix"></div>
+            <a href="05-b-shop-shopping-cart.html" class="btn btn-primary btn-block">
+              View shopping cart
+            </a>
+            <a href="06-a-shop-checkout.html" class="btn btn-default btn-block">
+              Proceed to checkout
+            </a>
+          </div>
+        </div>
+        <!-- !SHOPPING CART -->
+      </section>
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle btn btn-primary">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=" "></a>
+        </div>
+
+        <div class="navbar-collapse navbar-main-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="active dropdown">
+              <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html">Home Version 1</a></li>
+                <li><a href="02-home-two.html">Home Version 2</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="03-shop-products-list.html" class="dropdown-toggle" data-toggle="dropdown">Shop <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="03-shop-products-list.html">Product list</a></li>
+                <li><a href="04-shop-product-single.html">Single product</a></li>
+                <li class="dropdown">
+                  <a href="05-b-shop-shopping-cart.html" class="dropdown-toggle" data-toggle="dropdown">Shopping cart</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="05-b-shop-shopping-cart.html">Full cart</a></li>
+                    <li><a href="05-a-shop-shopping-cart-empty.html">Empty cart</a></li>
+                  </ul>
+                </li>
+                <li><a href="06-a-shop-checkout.html">Checkout</a></li>
+                <li><a href="09-a-shop-account-dashboard.html">My account</a></li>
+                <li><a href="09-e-shop-account-my-wishlist.html">Wishlist</a></li>
+                <li><a href="10-b-shop-customer-service-faq.html">Customer FAQ</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="11-a-portfolio-4-columns.html" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="11-a-portfolio-4-columns.html">4 columns</a></li>
+                <li><a href="12-a-portfolio-single-horizontal.html">Single Horizontal</a></li>
+                <li><a href="12-b-portfolio-single-vertical.html">Single Vertical</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="14-pages-blog.html" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="14-pages-blog.html">Blog list</a></li>
+                <li><a href="15-pages-blog-single.html">Blog single</a></li>
+                <li><a href="13-pages-about.html">About</a></li>
+                <li><a href="16-pages-contact.html">Contact</a></li>
+                <li><a href="19-icons.html">Icons</a></li>
+                <li><a href="17-pages-404.html">404</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="18-a-shortcodes-elements.html" class="dropdown-toggle" data-toggle="dropdown">Shortcodes <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="18-a-shortcodes-elements.html">Elements</a></li>
+                <li><a href="18-b-shortcodes-buttons-typography.html">Buttons & Typography</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right navbar-search" role="search">
+            <div class="form-group">
+              <label class="sr-only" for="navbar-search">Your search</label>
+              <input type="search" id="navbar-search" class="form-control">
+            </div>
+            <button class="btn btn-default navbar-search">
+              <span class="fa fa-search">
+                  <span class="sr-only">Search</span>
+              </span>
+            </button>
+          </form>
+        </div>
+        <!-- /.navbar-collapse -->
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section id="Content" role="main">
+<div class="container">
+
+  <!-- FULL WIDTH -->
+</div>
+<!-- !container -->
+<div class="full-width no-space flexslider-full-width">
+  <!-- FLEXSLIDER -->
+  <!-- SPECIAL VERSION 1 -->
+  <div class="flexslider">
+    <ul class="slides">
+      <!-- FLEXSLIDER SLIDE -->
+      <li style="background-image: url(images/content/home-slider-1.jpg); min-height: 560px">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-6">
+              <br><br><br><br><br><br><br>
+              <!-- CALL TO ACTION BOX -->
+              <div class="calltoaction-box text-center">
+                <h4 class="strong-header">20% off new season</h4>
+
+                <p>
+                  Bring your wardrobe up to speed with Autumn/Winter 2013: shop transitional
+                  pieces, all with 20% off
+                  <br><br>
+                </p>
+                <a href="#" class="btn btn-primary">Shop now</a>
+              </div>
+              <!-- !CALL TO ACTION BOX -->
+            </div>
+          </div>
+        </div>
+      </li>
+      <!-- !FLEXSLIDER SLIDE -->
+      <!-- FLEXSLIDER SLIDE -->
+      <li style="background-image: url(images/content/home-slider-2.jpg); min-height: 560px">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-5 col-sm-offset-7">
+                      <br><br>
+                      <div class="calltoaction-box calltoaction-box-version-2 text-center">
+                          <h4 class="strong-header">Ray of light</h4>
+                          <p>
+                              Hit the road in your festival favourites -<br>
+                              fringed vests, bleach effect denim, tie-dye and dungarees
+                          </p>
+                          <a href="#" class="btn btn-primary">Shop now</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </li>
+      <!-- !FLEXSLIDER SLIDE -->
+
+    </ul>
+    <div class="flexslider-full-width-controls"></div>
+  </div>
+  <!-- !FLEXSLIDER -->
+</div>
+<!-- !full-width -->
+<div class="container">
+  <!-- !FULL WIDTH -->
+
+
+  <!-- !SECTION EMPHASIS 1 -->
+  <!-- FULL WIDTH -->
+</div>
+<!-- !container -->
+<div class="full-width section-emphasis-1">
+  <div class="container">
+    <section class="row">
+      <div class="col-md-12 text-center">
+        <!-- ICON BOX SHORT -->
+        <div class="icon-box icon-box-short">
+          <i class="fa fa-refresh"></i>
+          <h4 class="strong-header">30 Days return</h4>
+        </div>
+        <!-- !ICON BOX SHORT -->
+
+        <!-- ICON BOX SHORT -->
+        <div class="icon-box icon-box-short">
+          <i class="fa fa-truck"></i>
+          <h4 class="strong-header">Free shipping</h4>
+        </div>
+        <!-- !ICON BOX SHORT -->
+
+        <!-- ICON BOX SHORT -->
+        <div class="icon-box icon-box-short">
+          <i class="fa fa-lock"></i>
+          <h4 class="strong-header">Secure payments</h4>
+        </div>
+        <!-- !ICON BOX SHORT -->
+
+        <!-- ICON BOX SHORT -->
+        <div class="icon-box icon-box-short">
+          <i class="fa fa-gift"></i>
+          <h4 class="strong-header">New styles every day</h4>
+        </div>
+        <!-- !ICON BOX SHORT -->
+      </div>
+    </section>
+  </div>
+</div>
+<!-- !full-width -->
+<div class="container">
+<!-- !FULL WIDTH -->
+<!-- !SECTION EMPHASIS 1 -->
+
+
+<!-- FLEXSLIDER -->
+<!-- STANDARD -->
+<section class="row">
+<div class="section-header col-xs-12">
+  <hr>
+  <h2 class="strong-header">
+    Featured items
+  </h2>
+</div>
+<div class="col-md-12">
+<div class="flexslider flexslider-nopager row">
+<ul class="slides">
+<li class="row">
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-1.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Skater Dress in Floral Print with Cut Out Shoulders</a></h4>
+        <span class="price">$47.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-2.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Exclusive Top with 3D Floral Sleeves</a></h4>
+        <span class="price-old">$65.00</span>&nbsp;&nbsp;<span class="price">$50.00</span>
+      </div>
+      <span class="sale-tag">Sale</span>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-3.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Shirt With Embellished Collar And Dip Dye</a></h4>
+        <span class="price">$67.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-4.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Mini Shift Dress In Neon Jacquard</a></h4>
+        <span class="price">$110.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+</li>
+<li class="row">
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-5.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">T-Shirt in Tiger Print with Fringing</a></h4>
+        <span class="price">$45.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-6.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Shirt Dress In Fluoro Jacquard Spot</a></h4>
+        <span class="price">$90.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-7.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Mini Skirt in Leather Look</a></h4>
+        <span class="price">$40.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-3 col-sm-6 col-xs-12">
+    <!-- SHOP FEATURED ITEM -->
+    <div class="shop-item shop-item-featured overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-featured-8.jpg" alt="Shop item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-block">
+              Add to cart
+            </button>
+            <button class="btn btn-default btn-block">
+              View details
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="item-info-name-price">
+        <h4><a href="#">Soft Blazer With Studs</a></h4>
+        <span class="price-old">$70.00</span>&nbsp;&nbsp;<span class="price">$40.00</span>
+      </div>
+    </div>
+    <!-- !SHOP FEATURED ITEM -->
+  </div>
+  <div class="clearfix visible-xs visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- !FLEXSLIDER -->
+
+
+<section class="row">
+  <div class="section-header col-xs-12">
+    <hr>
+    <h2 class="strong-header">
+      Highlights
+    </h2>
+  </div>
+  <div class="col-sm-4">
+    <!-- SHOP HIGHLIGHT -->
+    <!-- VERSION 1 -->
+    <div class="shop-item-highlight shop-item-highlight-version-1">
+      <a href="#">
+        <img src="images/content/home-highlights-1.jpg" alt="Highlighted shop item">
+      </a>
+
+      <a href="#" class="item-info-name-data">
+        <div class="item-info-name-data-wrapper">
+          <h4>Knit dress with seaming detail</h4>
+          From <span class="price">$45.00</span>
+        </div>
+      </a>
+    </div>
+    <!-- !SHOP HIGHLIGHT -->
+    <!-- !VERSION 1 -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-4">
+    <!-- SHOP HIGHLIGHT -->
+    <!-- VERSION 1 -->
+    <div class="shop-item-highlight shop-item-highlight-version-1">
+      <a href="#">
+        <img src="images/content/home-highlights-2.jpg" alt="Highlighted shop item">
+      </a>
+
+      <a href="#" class="item-info-name-data">
+        <div class="item-info-name-data-wrapper">
+          <h4>Midi dress in tapestry print</h4>
+          From <span class="price">$55.00</span>
+        </div>
+      </a>
+    </div>
+    <!-- !SHOP HIGHLIGHT -->
+    <!-- !VERSION 1 -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-4">
+    <!-- SHOP HIGHLIGHT -->
+    <!-- VERSION 1 -->
+    <div class="shop-item-highlight shop-item-highlight-version-1">
+      <a href="#">
+        <img src="images/content/home-highlights-3.jpg" alt="Highlighted shop item">
+      </a>
+
+      <a href="#" class="item-info-name-data">
+        <div class="item-info-name-data-wrapper">
+          <h4>Denim overall in dark wash</h4>
+          From <span class="price">$65.00</span>
+        </div>
+      </a>
+    </div>
+    <!-- !SHOP HIGHLIGHT -->
+    <!-- !VERSION 1 -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+</section>
+
+
+<!-- FLEXSLIDER WITH FLIPPED IMAGES -->
+<!-- STANDARD -->
+<section class="row">
+  <div class="section-header col-xs-12">
+    <hr>
+    <h2 class="strong-header">
+      Latest products
+    </h2>
+  </div>
+  <div class="col-md-12">
+    <div class="flexslider flexslider-nopager row">
+      <ul class="slides">
+        <li class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+            <span class="frontImg">
+              <img src="images/content/home-latest-05a.jpg" alt=" ">
+            </span>
+
+            <span class="backImg">
+              <img src="images/content/home-latest-05b.jpg" alt=" ">
+            </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">T-Shirt in Tiger Print with Fringing</a></h4>
+                <span class="price">$45.00</span>
+              </div>
+            </div>
+            <!-- !SHOP FEATURED ITEM -->
+          </div>
+          <div class="clearfix visible-xs space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+            <span class="frontImg">
+              <img src="images/content/home-latest-06a.jpg" alt=" ">
+            </span>
+
+            <span class="backImg">
+              <img src="images/content/home-latest-06b.jpg" alt=" ">
+            </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Shirt Dress In Fluoro Jacquard Spot</a></h4>
+                <span class="price">$90.00</span>
+              </div>
+            </div>
+            <!-- !SHOP FEATURED ITEM -->
+          </div>
+          <div class="clearfix visible-xs visible-sm space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+            <span class="frontImg">
+              <img src="images/content/home-latest-07a.jpg" alt=" ">
+            </span>
+
+            <span class="backImg">
+              <img src="images/content/home-latest-07b.jpg" alt=" ">
+            </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Smock Dress With Textured Floral Embroidery</a></h4>
+                <span class="price">$120.00</span>
+              </div>
+            </div>
+            <!-- !SHOP FEATURED ITEM -->
+          </div>
+          <div class="clearfix visible-xs space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+            <span class="frontImg">
+              <img src="images/content/home-latest-08a.jpg" alt=" ">
+            </span>
+
+            <span class="backImg">
+              <img src="images/content/home-latest-08b.jpg" alt=" ">
+            </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Shirt With Contrast Collar In Chambray</a></h4>
+                <span class="price-old">$65.00</span>&nbsp;&nbsp;<span class="price">$55.00</span>
+              </div>
+            </div>
+            <!-- !SHOP FEATURED ITEM -->
+          </div>
+          <div class="clearfix visible-xs visible-sm space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+        </li>
+        <li class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+          <span class="frontImg">
+            <img src="images/content/home-latest-01a.jpg" alt=" ">
+          </span>
+
+          <span class="backImg">
+            <img src="images/content/home-latest-01b.jpg" alt=" ">
+          </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Skater Dress in Floral Print with Cut Out Shoulders</a></h4>
+                <span class="price">$47.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+          <div class="col-md-3 col-sm-6">
+            <!-- SHOP FEATURED ITEM -->
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+          <span class="frontImg">
+            <img src="images/content/home-latest-02a.jpg" alt=" ">
+          </span>
+
+          <span class="backImg">
+            <img src="images/content/home-latest-02b.jpg" alt=" ">
+          </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Exclusive Top with 3D Floral Sleeves</a></h4>
+                <span class="price-old">$65.00</span>&nbsp;&nbsp;<span class="price">$50.00</span>
+              </div>
+              <span class="sale-tag">Sale</span>
+            </div>
+          </div>
+          <div class="clearfix visible-xs visible-sm space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+          <span class="frontImg">
+            <img src="images/content/home-latest-03a.jpg" alt=" ">
+          </span>
+
+          <span class="backImg">
+            <img src="images/content/home-latest-03b.jpg" alt=" ">
+          </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Shirt With Embellished Collar And Dip Dye</a></h4>
+                <span class="price">$67.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+          <div class="col-md-3 col-sm-6">
+            <div class="shop-item shop-item-featured overlay-element">
+              <div class="flipImage clearfix">
+                <a href="#">
+          <span class="frontImg">
+            <img src="images/content/home-latest-04a.jpg" alt=" ">
+          </span>
+
+          <span class="backImg">
+            <img src="images/content/home-latest-04b.jpg" alt=" ">
+          </span>
+                </a>
+              </div>
+              <div class="item-info-name-price">
+                <h4><a href="#">Mini Shift Dress In Neon Jacquard</a></h4>
+                <span class="price">$110.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs visible-sm space-30"></div>
+          <!-- VIRTUAL ROW !IMPORTANT -->
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- !FLEXSLIDER -->
+
+
+<section class="row">
+  <div class="section-header col-xs-12">
+    <hr>
+    <h2 class="strong-header">
+      Top Rated Products
+    </h2>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <!-- TOP RATED PRODUCT -->
+    <div class="shop-top-rated">
+      <a href="#">
+        <img src="images/content/shop-item-top-01.jpg" alt=" ">
+      </a>
+      <span class="rating" data-score="3"></span>
+
+      <div class="item-info-name-price">
+        <h4><a href="#">Shirt With Contrast Collar In Chambray</a></h4>
+        <span class="price">$55.00</span>
+      </div>
+    </div>
+    <!-- !TOP RATED PRODUCT -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-6 col-md-4">
+    <!-- TOP RATED PRODUCT -->
+    <div class="shop-top-rated">
+      <a href="#">
+        <img src="images/content/shop-item-top-02.jpg" alt=" ">
+      </a>
+      <span class="rating" data-score="5"></span>
+
+      <div class="item-info-name-price">
+        <h4><a href="#">Smock Dress With Textured Floral Embroidery</a></h4>
+        <span class="price">$120.00</span>
+      </div>
+    </div>
+    <!-- !TOP RATED PRODUCT -->
+  </div>
+  <div class="clearfix visible-sm visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-6 col-md-4">
+    <!-- TOP RATED PRODUCT -->
+    <div class="shop-top-rated">
+      <a href="#">
+        <img src="images/content/shop-item-top-03.jpg" alt=" ">
+      </a>
+      <span class="rating" data-score="4.5"></span>
+
+      <div class="item-info-name-price">
+        <h4><a href="#">T-Shirt in Tiger Print with Fringing</a></h4>
+        <span class="price">$45.00</span>
+      </div>
+    </div>
+    <!-- !TOP RATED PRODUCT -->
+  </div>
+  <div class="clearfix visible-xs visible-md visible-lg space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-6 col-md-4">
+    <!-- TOP RATED PRODUCT -->
+    <div class="shop-top-rated">
+      <a href="#">
+        <img src="images/content/shop-item-top-04.jpg" alt=" ">
+      </a>
+      <span class="rating" data-score="4"></span>
+
+      <div class="item-info-name-price">
+        <h4><a href="#">Mini Shift Dress In Neon Jacquard</a></h4>
+        <span class="price">$110.00</span>
+      </div>
+    </div>
+    <!-- !TOP RATED PRODUCT -->
+  </div>
+  <div class="clearfix visible-sm visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-6 col-md-4">
+    <!-- TOP RATED PRODUCT -->
+    <div class="shop-top-rated">
+      <a href="#">
+        <img src="images/content/shop-item-top-05.jpg" alt=" ">
+      </a>
+      <span class="rating" data-score="3"></span>
+
+      <div class="item-info-name-price">
+        <h4><a href="#">Shirt With Embellished Collar And Dip Dye</a></h4>
+        <span class="price">$67.00</span>
+      </div>
+    </div>
+    <!-- !TOP RATED PRODUCT -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-sm-6 col-md-4">
+    <!-- TOP RATED PRODUCT -->
+    <div class="shop-top-rated">
+      <a href="#">
+        <img src="images/content/shop-item-top-06.jpg" alt=" ">
+      </a>
+      <span class="rating" data-score="4.5"></span>
+
+      <div class="item-info-name-price">
+        <h4><a href="#">Exclusive Top with 3D Floral Sleeves</a></h4>
+        <span class="price">$50.00</span>
+      </div>
+    </div>
+    <!-- !TOP RATED PRODUCT -->
+  </div>
+</section>
+<!-- !SHOP TOP RATED -->
+
+
+<!-- FLEXSLIDER -->
+<!-- STANDARD -->
+<section class="row">
+<div class="section-header col-xs-12">
+  <hr>
+  <h2 class="strong-header">
+    Recently viewed
+  </h2>
+</div>
+<div class="col-md-12">
+<div class="flexslider flexslider-pager row">
+<ul class="slides">
+<li>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-1.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-2.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-3.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-4.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-5.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-6.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+</li>
+<li>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-7.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-8.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-9.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-10.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-11.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-12.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+</li>
+<li>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-13.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-14.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-15.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-sm space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-16.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="clearfix visible-xs space-30"></div>
+  <!-- VIRTUAL ROW !IMPORTANT -->
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-17.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+  <div class="col-md-2 col-sm-4 col-xs-6">
+    <!-- RECENTLY VIEWED ITEM -->
+    <div class="shop-recently-viewed overlay-element">
+      <div class="overlay-wrapper">
+        <a href="#">
+          <img src="images/content/home-recently-viewed-18.jpg" alt="Recently viewed item">
+        </a>
+
+        <div class="overlay-contents">
+          <div class="shop-item-actions">
+            <button class="btn btn-primary btn-small">
+              Delete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- !RECENTLY VIEWED ITEM -->
+  </div>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- !FLEXSLIDER -->
+
+
+<section class="row">
+  <div class="col-md-8">
+    <div class="row">
+      <div class="section-header col-xs-12">
+        <hr>
+        <h2 class="strong-header">
+          From our blog
+        </h2>
+      </div>
+      <!-- BLOG POSTS MINI -->
+      <div class="col-sm-6">
+        <article class="post-preview-mini">
+          <a href="15-pages-blog-single.html">
+            <img src="images/content/home-blog-1.jpg" alt="Blog post image">
+          </a>
+
+          <div class="post-info-name-date-comments">
+            <span class="date">Aug 9, 2013</span>&nbsp;&nbsp;<a href="#" class="comments">3 comments</a>
+            <h4><a href="15-pages-blog-single.html">Green leather shorts trousers headscarf neutral plaited</a></h4>
+          </div>
+        </article>
+      </div>
+      <!-- !BLOG POSTS MINI -->
+      <div class="clearfix visible-xs space-30"></div>
+      <!-- VIRTUAL ROW !IMPORTANT -->
+      <!-- BLOG POSTS MINI -->
+      <div class="col-sm-6">
+        <article class="post-preview-mini">
+          <a href="15-pages-blog-single.html">
+            <img src="images/content/home-blog-2.jpg" alt="Blog post image">
+          </a>
+
+          <div class="post-info-name-date-comments">
+            <span class="date">Aug 7, 2013</span>&nbsp;&nbsp;<a href="#" class="comments">Leave a comment</a>
+            <h4><a href="15-pages-blog-single.html">Clashing patterns cuff surf pop</a></h4>
+          </div>
+        </article>
+      </div>
+      <!-- !BLOG POSTS MINI -->
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="row">
+      <div class="section-header col-xs-12">
+        <hr>
+        <h2 class="strong-header">
+          Latest tweet
+        </h2>
+      </div>
+      <div class="col-xs-12">
+        <!-- display tweets here -->
+        <!-- configuration is placed in twitter/config.php -->
+        <div class="tweets_display" data-limit="1"></div>
+      </div>
+    </div>
+  </div>
+  <!-- !TWITTER -->
+</section>
+
+<!-- SECTION EMPHASIS 2 -->
+<!-- FULL WIDTH -->
+</div>
+<!-- !container -->
+<div class="full-width section-emphasis-2">
+  <div class="container">
+    <section class="row">
+      <div class="section-header col-xs-12">
+        <hr>
+        <h2 class="strong-header">
+          Join our newsletter
+        </h2>
+      </div>
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <!-- NEWSLETTER BOX -->
+        <div class="newsletter-box">
+          <div class="successMessage alert alert-success alert-dismissable" style="display: none">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              Thank You! E-mail was sent.
+          </div>
+          <div class="errorMessage alert alert-danger alert-dismissable" style="display: none">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              Ups! An error occured. Please try again later.
+          </div>
+
+          <form role="form" action="form/send.php" method="post" class="form-inline validateIt" data-email-subject="Newsletter Form" data-show-errors="true" data-hide-form="true">
+            <div class="form-group">
+              <label class="sr-only" for="newsletter-widget-name-1">Your name</label>
+              <input type="text" required name="field[]" class="form-control" id="newsletter-widget-name-1" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="newsletter-widget-email-1">Your email</label>
+              <input type="email" required name="field[]" class="form-control" id="newsletter-widget-email-1" placeholder="Your email">
+            </div>
+            <input type="submit" class="btn btn-primary btn-small" value="Sign up">
+          </form>
+        </div>
+        <!-- !NEWSLETTER BOX -->
+
+      </div>
+    </section>
+
+  </div>
+</div>
+<!-- !full-width -->
+<div class="container">
+  <!-- !FULL WIDTH -->
+  <!-- !SECTION EMPHASIS 2 -->
+
+
+</div>
+</section>
+
+<div class="clearfix visible-xs visible-sm"></div>
+<!-- fixes floating problems when mobile menu is visible -->
+
+<footer>
+  <div class="container">
+    <section class="row">
+      <div class="col-md-3 col-sm-6">
+        <h3 class="strong-header">
+          Company
+        </h3>
+
+        <div class="link-widget">
+          <ul class="list-unstyled">
+            <li><a href="13-pages-about.html">About us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="16-pages-contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h3 class="strong-header">
+          Help
+        </h3>
+
+        <div class="link-widget">
+          <ul class="list-unstyled">
+            <li><a href="10-a-shop-customer-service-track-order.html">Track order</a></li>
+            <li><a href="10-b-shop-customer-service-faq.html">FAQs</a></li>
+            <li><a href="#">Shipping info</a></li>
+            <li><a href="#">Payment</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h3 class="strong-header">
+          Quick links
+        </h3>
+
+        <div class="link-widget">
+          <ul class="list-unstyled">
+            <li><a href="#">Size guide</a></li>
+            <li><a href="09-a-shop-account-dashboard.html">My account</a></li>
+            <li><a href="09-e-shop-account-my-wishlist.html">Wishlist</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h3 class="strong-header">
+          Follow us
+        </h3>
+
+        <div class="social-widget">
+          <ul class="list-inline">
+            <li><a href="#" class="fb"><span class="sr-only">Facebook</span></a></li>
+            <li><a href="#" class="tw"><span class="sr-only">Twitter</span></a></li>
+            <li><a href="#" class="gp"><span class="sr-only">Google+</span></a></li>
+            <li><a href="#" class="pt"><span class="sr-only">Pinterest</span></a></li>
+            <li><a href="#" class="in"><span class="sr-only">LinkedIn</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="row">
+      <div class="col-md-12">
+        <span class="copyright pull-left">&copy; 2014 Decima Store</span>
+        <ul class="payment-methods list-inline pull-right">
+          <li>
+            <span class="payment-visa"><span class="sr-only">Visa</span></span>
+          </li>
+          <li>
+            <span class="payment-mastercard"><span class="sr-only">MasterCard</span></span>
+          </li>
+          <li>
+            <span class="payment-paypal"><span class="sr-only">PayPal</span></span>
+          </li>
+          <li>
+            <span class="payment-americanexpress"><span class="sr-only">American Express</span></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</footer>
+
+</div>
+
+<!-- SCRIPTS -->
+<!-- core -->
+<script src="js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<!-- !core -->
+
+<!-- plugins -->
+<script src="js/jquery.flexslider-min.js"></script>
+
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.ba-bbq.min.js"></script>
+
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+
+<script src="js/jquery.raty.min.js"></script>
+
+<script src="js/jquery.prettyPhoto.js"></script>
+
+<script src="js/chosen.jquery.min.js"></script>
+<script src="form/js/contact-form.js"></script>
+<script src="twitter/js/jquery.tweet.js"></script>
+<!-- !plugins -->
+
+<script src="js/main.js"></script>
+
 </body>
 </html>
