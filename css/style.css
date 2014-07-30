@@ -3127,6 +3127,7 @@ body {
 /* == SHOP ITEM ACTIONS == */
 .col-md-2 .overlay-element {
   max-width: 140px;
+  margin-bottom: 26px;
 }
 .overlay-element {
   max-width: 220px;
@@ -4629,6 +4630,7 @@ label .chosen-container {
   opacity: 1;
   filter: alpha(opacity=100);
 }
+
 @media (max-width: 1075px) {
   .flexslider-full-width .flexslider .flexslider-full-width-controls-wrapper .container .row > div > div .flex-prev {
     left: 30px;
