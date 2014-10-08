@@ -45,6 +45,7 @@ a > *:hover,
 	color: #ea693f;
 	text-decoration: none;
 	top: auto;
+	font-style: normal;
 }
 h1,
 h2,
@@ -59,7 +60,7 @@ h6 {
 }
 h1,
 h2 {
-  font-size: 24px;
+  font-size: 27px;
   font-weight: bold;
   margin-left: -1px;
   margin-bottom: 19px;
@@ -152,7 +153,7 @@ h6.large-header {
 /* ======================= */
 /* ====== MAIN NAV ======= */
 #MainNav {
-	background-color: #ffffff;
+	background-color: #FFFFF7;
 	margin-top: 50px;
 }
 #MainNav section {
@@ -255,12 +256,13 @@ h6.large-header {
   background: #dedede;
 }
 #MainNav nav .navbar-collapse .navbar-search #navbar-search {
-  color: inherit;
-  width: 210px;
-  max-width: 100%;
-  font-size: 14px;
-  border-radius: 3px 0 0 3px;
-  padding-right: 16px;
+	color: inherit;
+	width: 180px;
+	max-width: 100%;
+	font-size: 14px;
+	border-radius: 3px 0 0 3px;
+	padding-right: 16px;
+	margin-left: 15px;
 }
 #MainNav nav .navbar-collapse .navbar-search #navbar-search:focus {
   color: #1a1a1a;
@@ -283,21 +285,26 @@ h6.large-header {
   font-size: 14px;
 }
 #MainNav nav .navbar-collapse .navbar-nav {
-	margin-left: 24px;
-	margin-top: 11px;
+	margin-left: 10px;
+	margin-top: 15px;
 	max-width: 522px;
 	top: auto;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	left: 29px;
 }
 #MainNav nav .navbar-collapse .navbar-nav > li {
-  margin: 0;
+	margin-top: -4px;
+	margin-right: -4px;
+	margin-left: -4px;
+	margin-bottom: -4px;
 }
 #MainNav nav .navbar-collapse .navbar-nav > li.active > a,
 #MainNav nav .navbar-collapse .navbar-nav > li.open > a,
 #MainNav nav .navbar-collapse .navbar-nav > li > a:hover {
 	background: none;
 	color: #ea693f;
+	left: 0pt;
 }
 #MainNav nav .navbar-collapse .navbar-nav > li > a {
   font-weight: bold;
@@ -382,8 +389,8 @@ h6.large-header {
     height: 340px;
   }
   #MainNav nav .navbar-collapse .nav {
-    margin-left: 0;
-    margin-right: 0;
+	margin-left: -2px;
+	margin-right: 0;
   }
   #MainNav nav .navbar-collapse .navbar-nav .dropdown-menu {
     padding-left: 20px;
@@ -440,7 +447,7 @@ h6.large-header {
   z-index: 0;
   content: " ";
   height: 50px;
-  background: #f2f2f2;
+  background: #dedede;
   top: 0;
   left: 0;
   right: 0;
@@ -464,7 +471,7 @@ h6.large-header {
 	padding: 0;
 	margin: 0;
 	border: none;
-	background-color: #ffffff;
+	background-color: #fffff7;
 }
 #Content .page-header header {
   margin-top: 7px;
@@ -482,7 +489,7 @@ h6.large-header {
 	line-height: 36px;
 	margin-left: -3px;
 	margin-bottom: 0;
-	background-color: #ffffff;
+	background-color: #fffff7;
 }
 #Content .page-header + .container > .row:first-child > .section-header > .strong-header {
   margin-top: 0 !important;
@@ -1652,7 +1659,7 @@ blockquote.testimonial p {
 }
 blockquote.testimonial small {
   display: block;
-  color: #808080;
+  color: #1a1a1a;
   font-size: 12px;
 }
 blockquote.testimonial small:before {
@@ -1660,7 +1667,7 @@ blockquote.testimonial small:before {
   display: block;
   height: 5px;
   width: 60px;
-  background: #ccc;
+  background: #1a1a1a;
   margin: 0 auto 15px;
 }
 blockquote.testimonial.testimonial-emphasized {
@@ -2963,7 +2970,8 @@ body {
   overflow-x: hidden;
 }
 .wrapper {
-  overflow: hidden;
+	overflow: hidden;
+	background-color: #FFFFF7;
 }
 /* ======================= */
 /* === HELPER CLASSES ==== */
@@ -3999,7 +4007,7 @@ label .chosen-container {
 	margin-top: 0px;  /* more space before the section -- */  /* -- except when there is full-width flexslider above or if the section is first element*/
 }
 .full-width.section-emphasis-1 {
-  background: #FEFCE6;
+  background: #F9CABB;
 }
 .full-width.section-emphasis-1 h1,
 .full-width.section-emphasis-1 h2,
@@ -4086,13 +4094,13 @@ label .chosen-container {
 .section-header h4,
 .section-header h5,
 .section-header h6 {
-  position: relative;
-  display: table;
-  padding: 0 10px;
-  margin: 28px auto 27px !important;
-  font-size: 16px !important;
-  text-align: center;
-  background: #fff;
+	position: relative;
+	display: table;
+	padding: 0 10px;
+	margin: 28px auto 27px !important;
+	font-size: 16px !important;
+	text-align: center;
+	background-color: #fffff7;
 }
 .section-emphasis-1 .section-header hr,
 .section-emphasis-2 .section-header hr {
@@ -4118,7 +4126,7 @@ label .chosen-container {
 .section-emphasis-1 .section-header h6,
 .section-emphasis-2 .section-header h6 {
 	margin-top: 0 !important;
-	background-color: #FEFCE6;
+	background-color: #F9CABB;
 }
 /* ======================= */
 /* === DROPDOWN CARET ==== */
