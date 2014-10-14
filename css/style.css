@@ -1887,14 +1887,16 @@ ul.list-icons li i.fa-circle:before {
   top: 9px;
 }
 .accordion .panel-group .panel-collapse .panel-body {
-  padding: 0 0 15px;
-  margin-top: -5px;
-  border: none;
+	padding: 0 0 15px;
+	margin-top: -5px;
+	border: none;
+	background-color: #fffff7;
 }
 .accordion.faq .panel-heading a {
-  font-size: 20px;
-  text-transform: none;
-  line-height: 1.2em;
+	font-size: 20px;
+	text-transform: none;
+	line-height: 1.2em;
+	background-color: #fffff7;
 }
 /* ======================= */
 /* ======= CHARTS ======== */
@@ -2102,9 +2104,10 @@ ul.list-icons li i.fa-circle:before {
 /* ======================= */
 /* ========= TABS ======== */
 .tabs .nav-tabs {
-  border: none;
-  margin-top: -15px;
-  margin-left: -15px;
+	border: none;
+	margin-top: -15px;
+	margin-left: -15px;
+	background-color: #fffff7;
 }
 .tabs .nav-tabs li {
   margin: 0;
@@ -2614,8 +2617,9 @@ table.price-calc .order-total td {
 }
 .shop-list-filters .filters-details .accordion .panel-heading,
 .shop-list-filters .filters-details .accordion .panel-body {
-  padding-left: 18px;
-  padding-right: 19px;
+	padding-left: 18px;
+	padding-right: 19px;
+	background-color: #FFFFFF;
 }
 .shop-list-filters .filters-range {
   margin-top: 9px;
