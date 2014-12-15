@@ -3103,9 +3103,12 @@ body {
   color: #ea693f;
 }
 .post-navigation {
-  padding: 25px 30px;
-  background: #f2f2f2;
-  margin-bottom: 28px;
+	padding-top: 25px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 19px;
+	background: #f2f2f2;
+	margin-bottom: 25px;
 }
 .post-navigation:before,
 .post-navigation:after {
@@ -3126,7 +3129,7 @@ body {
 }
 .post-navigation .prev a:hover,
 .post-navigation .next a:hover {
-  color: #1a1a1a;
+  color: #ea693f;
 }
 .post-navigation span {
   text-transform: uppercase;
